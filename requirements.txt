@@ -1,0 +1,19 @@
+# --- Needed now (step 1: load + split) ---
+langchain
+langchain-community
+langchain-text-splitters
+python-dotenv
+
+# --- Later: vector store + embeddings ---
+langchain-chroma
+chromadb
+langchain-huggingface
+sentence-transformers
+
+# --- Later: pick ONE LLM provider ---
+langchain-google-genai
+# langchain-groq
+
+# --- Later: GitHub links, UI, voice ---
+gitpython
+streamlit
