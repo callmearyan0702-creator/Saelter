@@ -122,9 +122,6 @@ Tweak these constants to trade speed against coverage:
 - [ ] Deployment (Streamlit Community Cloud or similar)
 
 ## What I learned
-
-*(Rewrite these in your own words before publishing.)*
-
 - Chunking decisions affect retrieval more than expected: tiny heading-only chunks ranked above the chunk that actually answered the question.
 - Vector search always returns something, even when nothing relevant exists, so the prompt needs an explicit "not enough information" exit.
 - Keep the retrieved context from the question step and reuse it when evaluating the answer, so both steps see the same evidence.
@@ -136,6 +133,3 @@ Tweak these constants to trade speed against coverage:
 - Never commit `.env`. It is listed in `.gitignore`; use `.env.example` as a template.
 - If an API key is ever pushed by mistake, revoke and regenerate it immediately.
 
-## License
-
-Add a license of your choice (for example MIT).
